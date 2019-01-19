@@ -134,11 +134,15 @@ section:nth-of-type(2) li:nth-of-type(7) {
   text-indent: 85px;
 }
 
-footer img:nth-of-type() {
-
+footer div img {
+  float: left;
 }
 footer h3 {
 
+}
+
+footer div {
+  width: 960px;
 }
 
 footer p:nth-child() {
@@ -146,13 +150,26 @@ footer p:nth-child() {
 }
 
 footer button {
-
+  float: right;
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: #900;
 }
 
-footer img:nth-last-of-type() {
+footer div + img{ 
+  margin: 50px 0px 20px 465px;
+}
 
+footer section {
+  height: 13px;
+  width: 100%;
+  background-image: url("../img/border.png");
+  margin-bottom: 20px;
 }
 
 footer p {
-
+  margin: 0px auto;
+  /* max-width: 300px; */
+  text-align: center;
 }   
